@@ -52,8 +52,8 @@ export default function Home() {
         </div>
         
       <section className="max-w-4xl mx-auto px-4 py-20 text-center">
-        <h2 className="text-4xl font-bold mb-10 text-gray-800">How It Works</h2>
-        <div className="grid md:grid-cols-3 gap-8 text-left">
+        <h2 className="text-3xl font-bold mb-10 text-gray-800">How It Works</h2>
+        <<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-left">
           <div>
             <h3 className="font-semibold text-lg mb-2">1. Submit Your Request</h3>
             <p className="text-gray-600">Request a report and provide as much details about the property (incl. links of the listing).</p>
