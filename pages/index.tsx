@@ -24,7 +24,7 @@ export default function Home() {
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Price assessment & bidding strategy</li>
               <li>Red flag checklist for the home</li>
-              <li>Neighborhood and disaster Analysis</li>
+              <li>Neighborhood and disaster analysis</li>
               <li>Communication tips for your agent</li>
             </ul>
             <a href="/request">
@@ -56,20 +56,24 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div>
             <h3 className="font-semibold text-lg mb-2">1. Submit Your Request</h3>
-            <p className="text-gray-600">Choose buyer or seller, share your property details, and we’ll take it from there.</p>
+            <p className="text-gray-600">Request a report and provide as much details about the property (incl. links of the listing).</p>
           </div>
           <div>
-            <h3 className="font-semibold text-lg mb-2">2. Get a Custom Report</h3>
-            <p className="text-gray-600">You’ll receive a clear breakdown with actionable advice, tailored to your situation.</p>
+            <h3 className="font-semibold text-lg mb-2">2. Assessment and Payment</h3>
+            <p className="text-gray-600">You’ll receive a follow-up email from me with additional questions and a payment link.</p>
           </div>
           <div>
-            <h3 className="font-semibold text-lg mb-2">3. Make a Smart Move</h3>
+            <h3 className="font-semibold text-lg mb-2">3. Get a Custom Report</h3>
+            <p className="text-gray-600">Upon receipt of your payment, you’ll receive a clear breakdown with actionable advice, tailored to your situation.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-lg mb-2">4. Make a Smart Move</h3>
             <p className="text-gray-600">Use your report to negotiate, avoid mistakes, and confidently move forward.</p>
           </div>
         </div>
       </section>
 
-      <section className="bg-gray-50 py-20 px-4 text-center">
+      {/* <section className="bg-gray-50 py-20 px-4 text-center">
         <h2 className="text-3xl font-bold mb-10 text-gray-800">Pricing</h2>
         <div className="max-w-3xl mx-auto">
           <p className="text-gray-700 mb-6">Clear and simple pricing for both buyers and sellers.</p>
@@ -100,7 +104,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
         <p className="mt-16 text-gray-500">
           Have questions? <a href="/contact" className="text-blue-600 underline">Contact me here</a>.
