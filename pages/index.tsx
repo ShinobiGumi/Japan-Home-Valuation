@@ -107,7 +107,7 @@ export default function Home() {
       </section> */}
 
         <p className="mt-16 text-gray-500">
-          Have questions? <a href="/contact" className="text-blue-600 underline">Contact me here</a>.
+          Have questions? <a href="mailto:japanhomeadvisor@gmail.com" className="text-blue-600 underline">Contact me here</a>.
         </p>
       </section>
     </Layout>
