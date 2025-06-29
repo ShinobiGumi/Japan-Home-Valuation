@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Analytics } from "@vercel/analytics/next"; // Make sure this is 'react' not 'next'
+import { Analytics } from "@vercel/analytics/react"; // Make sure this is 'react' not 'next'
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
