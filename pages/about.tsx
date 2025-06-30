@@ -4,13 +4,15 @@ import Layout from "../components/Layout";
 export default function About() {
   return (
     <Layout>
-      <Head>
-        <title>About | Japan Home Advisor</title>
+      <Head><Head>
+        <title>About Japan Home Advisor | Independent Property Advice in Japan</title>
         <meta
-          name="description"
-          content="Learn more about Japan Home Advisor and our experience helping buyers and sellers navigate the Japanese property market."
+            name="description"
+            content="Discover how Japan Home Advisor helps international and local buyers and sellers navigate the Japanese real estate market with clear, unbiased guidance."
         />
-      </Head>
+        <link rel="canonical" href="https://japanhomeadvisor.com/about" />
+    </Head>
+
 
       <section className="max-w-3xl mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold mb-6 text-center">

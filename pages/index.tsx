@@ -5,9 +5,14 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Japan Home Advisor | Buy or Sell Smarter</title>
-        <meta name="description" content="Avoid overpaying or underselling your home in Japan. Get expert analysis before you make a move." />
+        <title>Japan Home Advisor | Independent Property Advice for Buyers and Sellers</title>
+        <meta
+          name="description"
+          content="Independent advice to help you avoid overpaying or underselling your home in Japan. Get an expert evaluation and actionable insights before you commit."
+        />
+        <link rel="canonical" href="https://japanhomeadvisor.com/" />
       </Head>
+
 
       <section className="max-w-5xl mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl font-bold mb-6 text-gray-800 leading-tight">
