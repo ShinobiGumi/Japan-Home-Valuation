@@ -12,7 +12,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           </Link>
           <div className="space-x-4 text-sm">
             <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/request">Contact</Link>
           </div>
         </nav>
       </header>
