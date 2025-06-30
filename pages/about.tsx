@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 export default function About() {
   return (
     <Layout>
-      <Head><Head>
+      <Head>
         <title>About Japan Home Advisor | Independent Property Advice in Japan</title>
         <meta
             name="description"
